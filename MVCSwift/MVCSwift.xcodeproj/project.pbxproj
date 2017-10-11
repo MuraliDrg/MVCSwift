@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57100DAC1F8E5E270023E740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57100DAB1F8E5E270023E740 /* ViewController.swift */; };
 		577CCFC91F8DC68800AE81A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577CCFC81F8DC68800AE81A9 /* AppDelegate.swift */; };
-		577CCFCB1F8DC68800AE81A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577CCFCA1F8DC68800AE81A9 /* ViewController.swift */; };
 		577CCFCE1F8DC68800AE81A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577CCFCC1F8DC68800AE81A9 /* Main.storyboard */; };
 		577CCFD11F8DC68800AE81A9 /* MVCSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 577CCFCF1F8DC68800AE81A9 /* MVCSwift.xcdatamodeld */; };
 		577CCFD31F8DC68800AE81A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577CCFD21F8DC68800AE81A9 /* Assets.xcassets */; };
@@ -39,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57100DAB1F8E5E270023E740 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		577CCFC51F8DC68800AE81A9 /* MVCSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577CCFC81F8DC68800AE81A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		577CCFCA1F8DC68800AE81A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		577CCFCD1F8DC68800AE81A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		577CCFD01F8DC68800AE81A9 /* MVCSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVCSwift.xcdatamodel; sourceTree = "<group>"; };
 		577CCFD21F8DC68800AE81A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57100DAA1F8E5E270023E740 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57100DAB1F8E5E270023E740 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		577CCFBC1F8DC68800AE81A9 = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +117,7 @@
 			children = (
 				577CCFFB1F8DC6EB00AE81A9 /* Model */,
 				577CCFF91F8DC6CF00AE81A9 /* View */,
-				577CCFFA1F8DC6E100AE81A9 /* Controller */,
+				57100DAA1F8E5E270023E740 /* Controller */,
 				577CCFC81F8DC68800AE81A9 /* AppDelegate.swift */,
 				577CCFCC1F8DC68800AE81A9 /* Main.storyboard */,
 				577CCFD21F8DC68800AE81A9 /* Assets.xcassets */,
@@ -145,14 +153,6 @@
 				577CCFFE1F8DC7D100AE81A9 /* MVCPopUp.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		577CCFFA1F8DC6E100AE81A9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				577CCFCA1F8DC68800AE81A9 /* ViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		577CCFFB1F8DC6EB00AE81A9 /* Model */ = {
@@ -299,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577CCFCB1F8DC68800AE81A9 /* ViewController.swift in Sources */,
+				57100DAC1F8E5E270023E740 /* ViewController.swift in Sources */,
 				577CCFD11F8DC68800AE81A9 /* MVCSwift.xcdatamodeld in Sources */,
 				577CCFC91F8DC68800AE81A9 /* AppDelegate.swift in Sources */,
 				577CD0011F8DE7D900AE81A9 /* NetworkLayer.swift in Sources */,
